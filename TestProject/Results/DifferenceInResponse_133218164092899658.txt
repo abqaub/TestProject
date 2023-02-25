@@ -1,0 +1,129 @@
+Expected property expectedResponseDeserialized.docs[0].key to be "/works/OL26831311W", but "/works/OL15047325W" differs near "150" (index 9).
+Expected property expectedResponseDeserialized.docs[0].seed to be a collection with 9 item(s), but {
+    "/books/OL0000000M", 
+    "/works/OL15047325W", 
+    "/authors/OL22122A"
+}
+"
+"contains 6 item(s) less than"
+"{
+    "/books/OL36885090M", 
+    "/books/OL36410993M", 
+    "/books/OL36381057M", 
+    "/books/OL36421085M", 
+    "/works/OL26831311W", 
+    "/subjects/children's_fiction", 
+    "/subjects/technology", 
+    "/authors/OL9653893A", 
+    "/authors/OL10086113A"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].title to be "Goodnight Moon Base" with a length of 19, but "Goodnight Moon 123 Lap Edition" has a length of 30, differs near "123" (index 15).
+Expected property expectedResponseDeserialized.docs[0].title_suggest to be "Goodnight Moon Base" with a length of 19, but "Goodnight Moon 123 Lap Edition" has a length of 30, differs near "123" (index 15).
+Expected property expectedResponseDeserialized.docs[0].edition_count to be 4, but found 1.
+Expected property expectedResponseDeserialized.docs[0].edition_key to be a collection with 4 item(s), but {
+    "OL9953293M", 
+    "OL11111111"
+}
+"
+"contains 2 item(s) less than"
+"{
+    "OL36885090M", 
+    "OL36410993M", 
+    "OL36381057M", 
+    "OL36421085M"
+}
+.
+Expected expectedResponseDeserialized.docs[0].publish_date[0] to be "2021" with a length of 4, but "July 1, 2008" has a length of 12, differs near "Jul" (index 0).
+Expected expectedResponseDeserialized.docs[0].publish_year[0] to be 2021, but found 2008.
+Expected property expectedResponseDeserialized.docs[0].first_publish_year to be 2021, but found 2008.
+Expected property expectedResponseDeserialized.docs[0].oclc to be <null>, but found {
+    "234235364"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].contributor to be <null>, but found {
+    "Clement Hurd (Illustrator)"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].isbn to be a collection with 8 item(s), but {
+    "0061667552", 
+    "9780061667558"
+}
+"
+"contains 6 item(s) less than"
+"{
+    "1956622071", 
+    "1956622047", 
+    "9781956622058", 
+    "9781956622072", 
+    "1956622055", 
+    "9781956622041", 
+    "9781956622065", 
+    "1956622063"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].last_modified_i to be 1643398028, but found 1582912881.
+Expected property expectedResponseDeserialized.docs[0].ebook_access to be "no_ebook", but found <null>.
+Expected expectedResponseDeserialized.docs[0].publisher[0] to be "Aero Maestro" with a length of 12, but "HarperFestival" has a length of 14, differs near "Har" (index 0).
+Expected property expectedResponseDeserialized.docs[0].author_key to be a collection with 2 item(s), but {
+    "OL22122A"
+}
+"
+"contains 1 item(s) less than"
+"{
+    "OL9653893A", 
+    "OL10086113A"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].author_name to be a collection with 2 item(s), but {
+    "Margaret Wise Brown"
+}
+"
+"contains 1 item(s) less than"
+"{
+    "Brett Hoffstadt", 
+    "Steve Tanaka"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].author_alternative_name to be <null>, but found {
+    "Juniper Sage", 
+    "Margaret Wise Brown", 
+    "Golden MacDonald", 
+    "Timothy Hay"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].subject not to be <null>.
+Expected property expectedResponseDeserialized.docs[0].id_goodreads to be <null>, but found {
+    "2508736"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].id_librarything to be <null>, but found {
+    "3377897"
+}
+.
+Expected expectedResponseDeserialized.docs[0].publisher_facet[0] to be "Aero Maestro" with a length of 12, but "HarperFestival" has a length of 14, differs near "Har" (index 0).
+Expected property expectedResponseDeserialized.docs[0].subject_facet not to be <null>.
+Expected property expectedResponseDeserialized.docs[0]._version_ to be 1735668775205732352L, but found 1700699423277842432L.
+Expected property expectedResponseDeserialized.docs[0].author_facet to be a collection with 2 item(s), but {
+    "OL22122A Margaret Wise Brown"
+}
+"
+"contains 1 item(s) less than"
+"{
+    "OL10086113A Steve Tanaka", 
+    "OL9653893A Brett Hoffstadt"
+}
+.
+Expected property expectedResponseDeserialized.docs[0].subject_key not to be <null>.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Compare tuples by their properties
+- Compare anonymous types by their properties
+- Compare records by their members
+- Include non-browsable members
+- Match member by name (or throw)
+- Be strict about the order of items in byte arrays
+- Without automatic conversion.
+
